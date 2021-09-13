@@ -1,0 +1,132 @@
+body {
+  background: gray;
+  color: black;
+}
+.waveBox {
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--twitter-background);
+  padding-right: 10px;
+}
+.waveBox > form {
+  display: flex;
+  flex-direction: column;
+}
+.wavetBox__input {
+  display: flex;
+}
+.waveBox__input > input {
+  padding:50px;
+  width: 80%;
+  margin-top: 20px;
+  font-size:1.0em; 
+  border:solid 1px #ccc; 
+    -moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2); 
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2); 
+    box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px; 
+
+}
+.waveBox__input > input:focus {
+  outline: none;
+}
+.waveBox__button {
+  display: flex;
+  background-color: black !important;
+  border: solid 1px black; 
+  color: white !important;
+  height: 45px !important;
+  margin-top: 20px !important;
+  margin-left: auto !important;
+  padding-top:10px;
+  text-transform: inherit !important;
+  border-radius: 20px !important;
+}
+
+.waveBox__button2 {
+  display: flex;
+  background-color: black !important;
+  border: solid 1px black; 
+  color: white !important;
+  align-self: center;
+  height: 45px !important;
+  margin-top: 20px !important;
+  margin-right: auto !important;
+  padding-top:10px;
+  text-transform: inherit !important;
+  border-radius: 20px !important;
+}
+.feed {
+  margin-top: 20px;
+  flex: 0.4;
+  border-right: var(--twitter-background) 1px solid;
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+.feed__header {
+  color: rgb(43, 174, 226);
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid var(--twitter-background);
+  padding: 15px 20px;
+}
+
+.feed__header > h2 {
+  text-align: center;
+  color:black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+
+
+.header {
+  font-family:"Ubuntu Light","Ubuntu","Ubuntu Mono","Segoe Print","Segoe UI";
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  font-family:"Ubuntu Light","Ubuntu","Ubuntu Mono","Segoe Print","Segoe UI";
+  text-align: center;
+  margin-top: 16px;
+}
+
+.bio2 {
+  font-family:"Ubuntu Light","Ubuntu","Ubuntu Mono","Segoe Print","Segoe UI";
+  text-align: center;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.waveProgress {
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  
+}
+.input {
+    padding:10px; 
+    margin-top: 20px;
+    font-size:1.0em; 
+    color:black; 
+    border:solid 1px #ccc; 
+    -moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2); 
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2); 
+    box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px;    
+  }
